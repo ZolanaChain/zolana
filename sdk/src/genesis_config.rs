@@ -53,7 +53,7 @@ impl ClusterType {
 
     pub fn get_genesis_hash(&self) -> Option<Hash> {
         match self {
-            Self::MainnetBeta => Some(Hash::from_str("5eykt4UsFv8P8NJdTREpY1vzqKqZvdpKuc147dw2N9d").unwrap()),
+            Self::MainnetBeta => Some(Hash::from_str("2fYoFoiFmMDLJ5bP2DNep52juV1hM1mMMpP56Qpx6tzW").unwrap()),
             Self::Testnet => Some(Hash::from_str("4uhcVJyU9pJkvQyS88uRDiswHXSCkY3zQawwpjk2NsNY").unwrap()),
             Self::Devnet => Some(Hash::from_str("EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG").unwrap()),
             Self::Development => None,
